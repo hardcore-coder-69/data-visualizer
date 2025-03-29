@@ -8,10 +8,11 @@ body {
 
 .background-image {
     position: absolute;
+    top: -500px;
     width: 100vw;
     height: unset;
     display: none;
-    opacity: 0.8;
+    opacity: 0.4;
 }
 
 @media screen and (max-width: 600px) {
@@ -98,7 +99,7 @@ body {
     position: absolute;
     width: 200px;
     height: 300px;
-    background: rgba(0, 255, 17, 0.7);
+    background: rgba(0, 255, 8, 0.7);
     border: 2px solid #fff;
 }
 

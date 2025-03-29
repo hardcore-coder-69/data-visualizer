@@ -30,21 +30,21 @@ function drawUI() {
                 </div>
 
                 <div class="cuboid">
-                    <div class="face front">
+                    <div class="face front" style="background: ${item.background};">
                         <div class="bar">
                             <div class="heading">${item.heading}</div>
                             <div class="text">${item.text}</div>
                         </div>
                     </div>
-                    <div class="face back"></div>
-                    <div class="face right">
+                    <div class="face back" style="background: ${item.background};"></div>
+                    <div class="face right" style="background: ${item.background};">
                         <div class="bar">
                             <div class="heading">${item.heading}</div>
                             <div class="text">${item.text}</div>
                         </div>
                     </div>
-                    <div class="face left"></div>
-                    <div class="face top"></div>
+                    <div class="face left" style="background: ${item.background};"></div>
+                    <div class="face top" style="background: ${item.background};"></div>
                 </div>
             </div>
         `;
