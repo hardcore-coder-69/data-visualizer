@@ -2,8 +2,8 @@
 drawUI();
 function drawUI() {
     let leftPos = 800;
-    let topPos = 100;
-    let scale = 1.2;
+    let topPos = 10;
+    let scale = 1.5;
     if (window.outerWidth <= 600) {
         leftPos = 500;
         topPos = 0;
