@@ -2,63 +2,63 @@ window.bgImage = "";
 
 window.data = [
     {
-        image: "./assets/sein.png",
-        heading: "<h2><span style='font-size: 40px; background: #fff; color: #000; padding: 5px; border-radius: 50%;'>10</span></h2> <h2 style='background: #fff; color: #000;'>Seinfeld <br> (1989–1998)</h2>",
-        text: "<p>A “show about nothing” that changed sitcoms forever.</p>",
+        image: "./assets/10.jpg",
+        heading: "<h2><span style='font-size: 40px; background: #fff; color: #000; padding: 5px; border-radius: 50%;'>10</span></h2> <h2 style='background: #fff; color: #000;'>The Day the Earth Stood Still <br> (2008)</h2>",
+        text: "<p>$233.1 million</p>",
         // background: "#DA242C"
     },
     {
-        image: "./assets/twilight.png",
-        heading: "<h2><span style='font-size: 40px; background: #fff; color: #000; padding: 5px; border-radius: 50%; padding-left: 16px; padding-right: 16px;'>9</span></h2> <h2 style='background: #fff; color: #000;'>The Twilight Zone <br> (1959–1964)</h2>",
-        text: "<p>The original mind-bending anthology series.</p>",
+        image: "./assets/9.jpg",
+        heading: "<h2><span style='font-size: 40px; background: #fff; color: #000; padding: 5px; border-radius: 50%; padding-left: 16px; padding-right: 16px;'>9</span></h2> <h2 style='background: #fff; color: #000;'>Something's Gotta Give <br> (2003)</h2>",
+        text: "<p>$266.7 million</p>",
         // background: "#004D8D"
     },
     {
-        image: "./assets/mash.jpg",
-        heading: "<h2><span style='font-size: 40px; background: #fff; color: #000; padding: 5px; border-radius: 50%; padding-left: 16px; padding-right: 16px;'>8</span></h2> <h2 style='background: #fff; color: #000;'>MAS*H <br> (1972–1983)</h2>",
-        text: "<p>A legendary war comedy-drama set during the Korean War.</p>",
+        image: "./assets/8.jpg",
+        heading: "<h2><span style='font-size: 40px; background: #fff; color: #000; padding: 5px; border-radius: 50%; padding-left: 16px; padding-right: 16px;'>8</span></h2> <h2 style='background: #fff; color: #000;'>John Wick: Chapter 3 – Parabellum <br> (2019)</h2>",
+        text: "<p>$328.3 million</p>",
         // background: "#0B5975"
     },
     {
-        image: "./assets/stranger.jpg",
-        heading: "<h2><span style='font-size: 40px; background: #fff; color: #000; padding: 5px; border-radius: 50%; padding-left: 16px; padding-right: 16px;'>7</span></h2> <h2 style='background: #fff; color: #000;'>Stranger Things <br> (2016–present)</h2>",
-        text: "<p>Introduced a new generation to the magic of supernatural storytelling.</p>",
+        image: "./assets/7.jpg",
+        heading: "<h2><span style='font-size: 40px; background: #fff; color: #000; padding: 5px; border-radius: 50%; padding-left: 16px; padding-right: 16px;'>7</span></h2> <h2 style='background: #fff; color: #000;'>Sonic the Hedgehog 3 <br> (2025)</h2>",
+        text: "<p>$339 million</p>",
         // background: "#00AED9"
     },
     {
-        image: "./assets/office.jpg",
-        heading: "<h2><span style='font-size: 40px; background: #fff; color: #000; padding: 5px; border-radius: 50%; padding-left: 16px; padding-right: 16px;'>6</span></h2> <h2 style='background: #fff; color: #000;'>The Office (U.S.) <br> (2005–2013)</h2>",
-        text: "<p>Known for its awkward humor</p>",
+        image: "./assets/6.jpg",
+        heading: "<h2><span style='font-size: 40px; background: #fff; color: #000; padding: 5px; border-radius: 50%; padding-left: 16px; padding-right: 16px;'>6</span></h2> <h2 style='background: #fff; color: #000;'>Speed <br> (1994)</h2>",
+        text: "<p>$350.4 million</p>",
         // background: "#F0DC4E"
     },
     {
-        image: "./assets/sopra.jpg",
-        heading: "<h2><span style='font-size: 40px; background: #fff; color: #000; padding: 5px; border-radius: 50%; padding-left: 16px; padding-right: 16px;'>5</span></h2> <h2 style='background: #fff; color: #000;'>The Sopranos <br> (1999–2007)</h2>",
-        text: "<p>The ultimate gangster drama following mob boss Tony Soprano.</p>",
+        image: "./assets/5.jpg",
+        heading: "<h2><span style='font-size: 40px; background: #fff; color: #000; padding: 5px; border-radius: 50%; padding-left: 16px; padding-right: 16px;'>5</span></h2> <h2 style='background: #fff; color: #000;'>The Matrix Revolutions <br> (2003)</h2>",
+        text: "<p>$427.3 million</p>",
+        // background: "#F0DC4E"
+    },
+    {
+        image: "./assets/4.jpg",
+        heading: "<h2><span style='font-size: 40px; background: #fff; color: #000; padding: 5px; border-radius: 50%; padding-left: 16px; padding-right: 16px;'>4</span></h2> <h2 style='background: #fff; color: #000;'>John Wick: Chapter 4 <br> (2023)</h2>",
+        text: "<p>$440.1 million</p>",
         // background: "#A27ADD"
     },
     {
-        image: "./assets/simpsons.jpg",
-        heading: "<h2><span style='font-size: 40px; background: #fff; color: #000; padding: 5px; border-radius: 50%; padding-left: 16px; padding-right: 16px;'>4</span></h2> <h2 style='background: #fff; color: #000;'>The Simpsons <br> (1989–present)</h2>",
-        text: "<p>The longest-running animated sitcom.</p>",
+        image: "./assets/3.jpg",
+        heading: "<h2><span style='font-size: 40px; background: #fff; color: #000; padding: 5px; border-radius: 50%; padding-left: 16px; padding-right: 16px;'>3</span></h2> <h2 style='background: #fff; color: #000;'>The Matrix <br> (1999)</h2>",
+        text: "<p>$467.2 million</p>",
         // background: "#649AD2"
     },
     {
-        image: "./assets/friends.jpg",
-        heading: "<h2><span style='font-size: 40px; background: #fff; color: #000; padding: 5px; border-radius: 50%; padding-left: 16px; padding-right: 16px;'>3</span></h2> <h2 style='background: #fff; color: #000;'>Friends <br> (1994–2004)</h2>",
-        text: "<p>Timeless humor, iconic catchphrases, and cultural impact.</p>",
+        image: "./assets/2.jpg",
+        heading: "<h2><span style='font-size: 40px; background: #fff; color: #000; padding: 5px; border-radius: 50%; padding-left: 16px; padding-right: 16px;'>2</span></h2> <h2 style='background: #fff; color: #000;'>The Matrix Reloaded <br> (2003)</h2>",
+        text: "<p>$741.8 million</p>",
         // background: "#02758D"
     },
     {
-        image: "./assets/got.jpg",
-        heading: "<h2><span style='font-size: 40px; background: #fff; color: #000; padding: 5px; border-radius: 50%; padding-left: 16px; padding-right: 16px;'>2</span></h2> <h2 style='background: #fff; color: #000;'>Game of Thrones <br> (2011–2019)</h2>",
-        text: "<p>Epic fantasy drama based on George R.R. Martin’s books.</p>",
+        image: "./assets/1.jpg",
+        heading: "<h2><span style='font-size: 40px; background: #fff; color: #000; padding: 5px; border-radius: 50%; padding-left: 16px; padding-right: 16px;'>1</span></h2> <h2 style='background: #fff; color: #000;'>Toy Story 4 <br> (2019)</h2>",
+        text: "<p>$1.073 billion</p>",
         // background: "#659BD3"
-    },
-    {
-        image: "./assets/br.png",
-        heading: "<h2><span style='font-size: 40px; background: #fff; color: #000; padding: 5px; border-radius: 50%; padding-left: 16px; padding-right: 16px;'>1</span></h2> <h2 style='background: #fff; color: #000;'>Breaking Bad <br> (2008–2013)</h2>",
-        text: "<p>Gritty crime drama about a high school teacher-turned-drug lord.</p>",
-        // background: "#0176BC"
     }
 ]
