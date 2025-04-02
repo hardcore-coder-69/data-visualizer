@@ -1,64 +1,65 @@
 window.bgImage = "";
+// Source: United Nations Population Division
 
 window.data = [
     {
-        image: "./assets/10.jpg",
-        heading: "<h2><span style='font-size: 40px; background: #fff; color: #000; padding: 5px; border-radius: 50%;'>10</span></h2> <h2 style='background: #fff; color: #000;'>The Day the Earth Stood Still <br> (2008)</h2>",
-        text: "<p>$233.1 million</p>",
-        // background: "#DA242C"
+        image: "./assets/10.webp",
+        heading: "<h2><span style='font-size: 32px; background: #fff; color: #000; padding: 5px; border-radius: 50%;'>10</span></h2> <h2 style='background: #fff; color: #000;'>Mexico</h2>",
+        text: "<p style='font-weight: 500; font-size: 22px;'>130 Million people</p>",
+        background: "linear-gradient(to right, #086D4D, #fff, #D0182D);"
     },
     {
-        image: "./assets/9.jpg",
-        heading: "<h2><span style='font-size: 40px; background: #fff; color: #000; padding: 5px; border-radius: 50%; padding-left: 16px; padding-right: 16px;'>9</span></h2> <h2 style='background: #fff; color: #000;'>Something's Gotta Give <br> (2003)</h2>",
-        text: "<p>$266.7 million</p>",
-        // background: "#004D8D"
+        image: "./assets/9.webp",
+        heading: "<h2><span style='font-size: 32px; background: #fff; color: #000; padding: 5px; border-radius: 50%; padding-left: 16px; padding-right: 16px;'>9</span></h2> <h2 style='background: #fff; color: #000;'>Russia</h2>",
+        text: "<p style='font-weight: 500; font-size: 22px;'>145 Million people</p>",
+        background: "linear-gradient(to right, #fff, #0038A4, #D52A1D);"
     },
     {
-        image: "./assets/8.jpg",
-        heading: "<h2><span style='font-size: 40px; background: #fff; color: #000; padding: 5px; border-radius: 50%; padding-left: 16px; padding-right: 16px;'>8</span></h2> <h2 style='background: #fff; color: #000;'>John Wick: Chapter 3 – Parabellum <br> (2019)</h2>",
-        text: "<p>$328.3 million</p>",
-        // background: "#0B5975"
+        image: "./assets/8.webp",
+        heading: "<h2><span style='font-size: 32px; background: #fff; color: #000; padding: 5px; border-radius: 50%; padding-left: 16px; padding-right: 16px;'>8</span></h2> <h2 style='background: #fff; color: #000;'>Bangladesh</h2>",
+        text: "<p style='font-weight: 500; font-size: 22px;'>170 Million people</p>",
+        background: "linear-gradient(to right, #006B50, #EE2E44, #006B50);"
     },
     {
-        image: "./assets/7.jpg",
-        heading: "<h2><span style='font-size: 40px; background: #fff; color: #000; padding: 5px; border-radius: 50%; padding-left: 16px; padding-right: 16px;'>7</span></h2> <h2 style='background: #fff; color: #000;'>Sonic the Hedgehog 3 <br> (2025)</h2>",
-        text: "<p>$339 million</p>",
-        // background: "#00AED9"
+        image: "./assets/7.png",
+        heading: "<h2><span style='font-size: 32px; background: #fff; color: #000; padding: 5px; border-radius: 50%; padding-left: 16px; padding-right: 16px;'>7</span></h2> <h2 style='background: #fff; color: #000;'>Brazil</h2>",
+        text: "<p style='font-weight: 500; font-size: 22px;'>215 Million people</p>",
+        background: "linear-gradient(to right, #00953E, #FFCC00, #2C2182, #00953E);"
     },
     {
-        image: "./assets/6.jpg",
-        heading: "<h2><span style='font-size: 40px; background: #fff; color: #000; padding: 5px; border-radius: 50%; padding-left: 16px; padding-right: 16px;'>6</span></h2> <h2 style='background: #fff; color: #000;'>Speed <br> (1994)</h2>",
-        text: "<p>$350.4 million</p>",
-        // background: "#F0DC4E"
+        image: "./assets/6.png",
+        heading: "<h2><span style='font-size: 32px; background: #fff; color: #000; padding: 5px; border-radius: 50%; padding-left: 16px; padding-right: 16px;'>6</span></h2> <h2 style='background: #fff; color: #000;'>Nigeria</h2>",
+        text: "<p style='font-weight: 500; font-size: 22px;'>230 Million people</p>",
+        background: "linear-gradient(to right, #008850, #fff, #008850);"
     },
     {
-        image: "./assets/5.jpg",
-        heading: "<h2><span style='font-size: 40px; background: #fff; color: #000; padding: 5px; border-radius: 50%; padding-left: 16px; padding-right: 16px;'>5</span></h2> <h2 style='background: #fff; color: #000;'>The Matrix Revolutions <br> (2003)</h2>",
-        text: "<p>$427.3 million</p>",
-        // background: "#F0DC4E"
+        image: "./assets/5.png",
+        heading: "<h2><span style='font-size: 32px; background: #fff; color: #000; padding: 5px; border-radius: 50%; padding-left: 16px; padding-right: 16px;'>5</span></h2> <h2 style='background: #fff; color: #000;'>Pakistan</h2>",
+        text: "<p style='font-weight: 500; font-size: 22px;'>240 Million people</p>",
+        background: "linear-gradient(to right, #FFFFFF, #003F15);"
     },
     {
-        image: "./assets/4.jpg",
-        heading: "<h2><span style='font-size: 40px; background: #fff; color: #000; padding: 5px; border-radius: 50%; padding-left: 16px; padding-right: 16px;'>4</span></h2> <h2 style='background: #fff; color: #000;'>John Wick: Chapter 4 <br> (2023)</h2>",
-        text: "<p>$440.1 million</p>",
-        // background: "#A27ADD"
+        image: "./assets/4.webp",
+        heading: "<h2><span style='font-size: 32px; background: #fff; color: #000; padding: 5px; border-radius: 50%; padding-left: 16px; padding-right: 16px;'>4</span></h2> <h2 style='background: #fff; color: #000;'>Indonesia</h2>",
+        text: "<p style='font-weight: 500; font-size: 22px;'>280 Million people</p>",
+        background: "linear-gradient(to right, #FF0000, #fff);"
     },
     {
-        image: "./assets/3.jpg",
-        heading: "<h2><span style='font-size: 40px; background: #fff; color: #000; padding: 5px; border-radius: 50%; padding-left: 16px; padding-right: 16px;'>3</span></h2> <h2 style='background: #fff; color: #000;'>The Matrix <br> (1999)</h2>",
-        text: "<p>$467.2 million</p>",
-        // background: "#649AD2"
+        image: "./assets/3.webp",
+        heading: "<h2><span style='font-size: 32px; background: #fff; color: #000; padding: 5px; border-radius: 50%; padding-left: 16px; padding-right: 16px;'>3</span></h2> <h2 style='background: #fff; color: #000;'>United States</h2>",
+        text: "<p style='font-weight: 500; font-size: 22px;'>335 Million people</p>",
+        background: "linear-gradient(to right, #002768, #fff, #BE0B31);"
     },
     {
-        image: "./assets/2.jpg",
-        heading: "<h2><span style='font-size: 40px; background: #fff; color: #000; padding: 5px; border-radius: 50%; padding-left: 16px; padding-right: 16px;'>2</span></h2> <h2 style='background: #fff; color: #000;'>The Matrix Reloaded <br> (2003)</h2>",
-        text: "<p>$741.8 million</p>",
-        // background: "#02758D"
+        image: "./assets/2.webp",
+        heading: "<h2><span style='font-size: 32px; background: #fff; color: #000; padding: 5px; border-radius: 50%; padding-left: 16px; padding-right: 16px;'>2</span></h2> <h2 style='background: #fff; color: #000;'>China</h2>",
+        text: "<p style='font-weight: 500; font-size: 22px;'>1.41 Billion people</p>",
+        background: "linear-gradient(to right, #BE0B31, #FFFF00, #BE0B31);"
     },
     {
-        image: "./assets/1.jpg",
-        heading: "<h2><span style='font-size: 40px; background: #fff; color: #000; padding: 5px; border-radius: 50%; padding-left: 16px; padding-right: 16px;'>1</span></h2> <h2 style='background: #fff; color: #000;'>Toy Story 4 <br> (2019)</h2>",
-        text: "<p>$1.073 billion</p>",
-        // background: "#659BD3"
+        image: "./assets/1.svg",
+        heading: "<h2><span style='font-size: 32px; background: #fff; color: #000; padding: 5px; border-radius: 50%; padding-left: 16px; padding-right: 16px;'>1</span></h2> <h2 style='background: #fff; color: #000;'>India</h2>",
+        text: "<p style='font-weight: 500; font-size: 22px;'>1.43 Billion people</p>",
+        background: "linear-gradient(to right, #FF6820, #fff, #046A38);"
     }
 ]

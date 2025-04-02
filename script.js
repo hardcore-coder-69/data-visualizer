@@ -2,7 +2,7 @@
 drawUI();
 function drawUI() {
     let leftPos = 800;
-    let topPos = 10;
+    let topPos = 40;
     let scale = 1.5;
     if (window.outerWidth <= 600) {
         leftPos = 500;
@@ -30,21 +30,21 @@ function drawUI() {
                 </div>
 
                 <div class="cuboid">
-                    <div class="face front" style="background: ${item.background};">
+                    <div class="face front" style="background-image: ${item.background};">
                         <div class="bar">
                             <div class="heading">${item.heading}</div>
                             <div class="text">${item.text}</div>
                         </div>
                     </div>
-                    <div class="face back" style="background: ${item.background};"></div>
-                    <div class="face right" style="background: ${item.background};">
+                    <div class="face back" style="background-image: ${item.background};"></div>
+                    <div class="face right" style="background-image: ${item.background};">
                         <div class="bar">
                             <div class="heading">${item.heading}</div>
                             <div class="text">${item.text}</div>
                         </div>
                     </div>
-                    <div class="face left" style="background: ${item.background};"></div>
-                    <div class="face top" style="background: ${item.background};"></div>
+                    <div class="face left" style="background-image: ${item.background};"></div>
+                    <div class="face top" style="background-image: ${item.background};"></div>
                 </div>
             </div>
         `;
