@@ -60,7 +60,7 @@ function drawUI() {
 
 function startAnimation() {
     const containerEl = document.getElementById('container');
-    containerEl.style.transition = 'all 120s linear';
+    containerEl.style.transition = 'all 60s linear';
     containerEl.style.transform = `translateX(-${800 * data.length}px)`;
 
     scaleDownHanlder();
