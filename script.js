@@ -1,9 +1,10 @@
+let leftPos = 800;
+let topPos = 40;
+let scale = 1.5;
+let speed = 120; // in seconds
 
 drawUI();
 function drawUI() {
-    let leftPos = 800;
-    let topPos = 40;
-    let scale = 1.5;
     if (window.outerWidth <= 600) {
         leftPos = 500;
         topPos = 0;
@@ -60,7 +61,7 @@ function drawUI() {
 
 function startAnimation() {
     const containerEl = document.getElementById('container');
-    containerEl.style.transition = 'all 60s linear';
+    containerEl.style.transition = `all ${speed}s linear`;
     containerEl.style.transform = `translateX(-${800 * data.length}px)`;
 
     scaleDownHanlder();
@@ -68,10 +69,10 @@ function startAnimation() {
 
 function scaleDownHanlder() {
     let scaleOn = 500;
-    if(window.outerWidth <= 600) {
+    if (window.outerWidth <= 600) {
         scaleOn = 300;
     }
-    
+
     const items = Array.from(document.getElementsByClassName("data-item"));
     setInterval(() => {
         items.forEach(item => {
